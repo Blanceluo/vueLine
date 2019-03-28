@@ -11,7 +11,8 @@ module.exports = {
         'no-console': 0,
         'linebreak-style': 'off', // 忽略行尾
         'comma-dangle': [2, 'never'],
-        'arrow-body-style': ['error', 'always']
+        'arrow-body-style': ['error', 'as-needed'],
+        'arrow-parens': 'off',
     },
     parserOptions: {
         parser: 'babel-eslint'

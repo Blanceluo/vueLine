@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <h1>SKY WHEEL</h1>
     <div v-html="ctx"></div>
   </div>
 </template>
@@ -8,7 +9,7 @@
 export default {
   name: 'home',
   beforeCreate() {
-    this.$http.get('/index').then((res) => {
+    this.$http.get(this.$api.index).then(res => {
       this.$nextTick(() => {
         this.ctx = res;
       });
