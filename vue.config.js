@@ -1,4 +1,4 @@
-const PROXY_IP = 'https://129.204.93.232:3000';
+const PROXY_IP = 'http://129.204.93.232:3000';
 
 module.exports = {
   devServer: {
